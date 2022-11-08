@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Search_textStyle">
+        <item name="android:textSize">30sp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+
+</resources>
