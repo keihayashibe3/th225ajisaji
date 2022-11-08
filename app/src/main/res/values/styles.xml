@@ -2,6 +2,7 @@
 <resources>
     <style name="Search_textStyle">
         <item name="android:textSize">30sp</item>
+        <item name="android:paddingLeft">20dp</item>
         <item name="android:paddingBottom">10dp</item>
     </style>
 
