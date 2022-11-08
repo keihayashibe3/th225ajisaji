@@ -46,6 +46,8 @@
                 android:text=" お肉"
                 style="@style/Search_textStyle"
                 android:drawableLeft="@drawable/testicon"
+                android:onClick="onOniku"
+
                 />
 
             <TextView
