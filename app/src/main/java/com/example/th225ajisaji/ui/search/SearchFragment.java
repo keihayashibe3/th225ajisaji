@@ -27,11 +27,12 @@ public class SearchFragment extends Fragment {
         final TextView textView = binding.textSerach;
         dashboardViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
-    }
+        }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
     }
+
 }
