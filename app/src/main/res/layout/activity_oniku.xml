@@ -11,8 +11,8 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="20dp"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="-156dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-66dp">
 
         <ScrollView
             android:layout_width="wrap_content"
@@ -42,7 +42,7 @@
                     android:layout_gravity="center"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
-                    tools:srcCompat="@drawable/chinjaorosu" />
+                    app:srcCompat="@drawable/chinjaorosu" />
 
                 <TextView
                     android:id="@+id/text_chijaorosu"
@@ -66,7 +66,7 @@
                     android:layout_gravity="center"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
-                    tools:srcCompat="@drawable/porkcurry" />
+                    app:srcCompat="@drawable/porkcurry" />
 
                 <TextView
                     android:id="@+id/text_porkcurry"
@@ -100,7 +100,7 @@
                     android:layout_weight="0.5"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
-                    tools:srcCompat="@drawable/rollcabbage" />
+                    app:srcCompat="@drawable/rollcabbage" />
 
                 <TextView
                     android:id="@+id/text_rollcabbage"
@@ -126,7 +126,7 @@
                     android:layout_weight="0.5"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
-                    tools:srcCompat="@drawable/porksote" />
+                    app:srcCompat="@drawable/porksote" />
 
                 <TextView
                     android:id="@+id/text_porksote"
@@ -159,7 +159,7 @@
                     android:layout_weight="0.5"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
-                    tools:srcCompat="@drawable/porkchappu" />
+                    app:srcCompat="@drawable/porkchappu" />
 
                 <TextView
                     android:id="@+id/text_porkchoppu"
@@ -185,7 +185,7 @@
                     android:layout_weight="0.5"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
-                    tools:srcCompat="@drawable/staminadon" />
+                    app:srcCompat="@drawable/staminadon" />
 
                 <TextView
                     android:id="@+id/text_staminadon"
@@ -218,7 +218,7 @@
                     android:layout_weight="0.5"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
-                    tools:srcCompat="@drawable/subuta" />
+                    app:srcCompat="@drawable/subuta" />
 
                 <TextView
                     android:id="@+id/text_subuta"
@@ -244,7 +244,7 @@
                     android:layout_weight="0.5"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
-                    tools:srcCompat="@drawable/syogayaki" />
+                    app:srcCompat="@drawable/syogayaki" />
 
                 <TextView
                     android:id="@+id/text_syogayaki"
