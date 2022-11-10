@@ -28,7 +28,7 @@
             android:layout_gravity="center"
             android:text="五味調節"
             android:textSize="24dp"
-            android:background="#EEddd"
+            android:background="#fafafa"
            />
 
         <ImageView
