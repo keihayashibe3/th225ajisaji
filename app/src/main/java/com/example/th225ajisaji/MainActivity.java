@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each(各メニューIDをIDとセットとして渡す)
         // menu should be considered as top level destinations.(メニューはトップレベルの宛先となる)
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_home, R.id.navigation_setting, R.id.navigation_favorite, R.id.navigation_search, R.id.Onikubutton)
+                R.id.navigation_home, R.id.navigation_setting, R.id.navigation_favorite, R.id.navigation_search)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
