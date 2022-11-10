@@ -10,5 +10,6 @@ public class Favorite_fav extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_favorite_fav);
+        setTitle( "お気に入り" );
     }
 }

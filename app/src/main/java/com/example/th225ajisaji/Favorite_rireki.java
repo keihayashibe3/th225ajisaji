@@ -10,5 +10,6 @@ public class Favorite_rireki extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_butaniku);
+        setTitle( "閲覧履歴" );
     }
 }
