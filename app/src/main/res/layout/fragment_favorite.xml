@@ -1,10 +1,155 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ui.favorite.FavoriteFragment">
+
+    <!--おすすめ-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickFavorite_fav"
+            android:text="お気に入り" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button_fav1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:drawableTop="@drawable/yasai_home"
+                android:text="野菜" />
+
+            <Button
+                android:id="@+id/button_fav2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:text="肉"
+                android:drawableTop="@drawable/niku"/>
+
+            <Button
+                android:id="@+id/button_fav3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:drawableTop="@drawable/yasai_home"
+                android:text="麺" />
+
+            <Button
+                android:id="@+id/button_fav4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:drawableTop="@drawable/yasai_home"
+                android:text="麺" />
+
+            <Button
+                android:id="@+id/button_fav5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:drawableTop="@drawable/yasai_home"
+                android:text="麺" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+
+    <!--旬-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView_rireki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="閲覧履歴" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+            <Button
+                android:id="@+id/button_rireki1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:drawableTop="@drawable/yasai_home"
+                android:text="野菜"
+                />
+
+            <Button
+                android:id="@+id/button_rireki2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:drawableTop="@drawable/yasai_home"
+                android:text="肉" />
+
+            <Button
+                android:id="@+id/button_rireki3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:drawableTop="@drawable/yasai_home"
+                android:text="麺" />
+
+            <Button
+                android:id="@+id/button_rireki4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:drawableTop="@drawable/yasai_home"
+                android:text="麺" />
+
+            <Button
+                android:id="@+id/button_rireki5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:drawableTop="@drawable/yasai_home"
+                android:text="麺" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
 
     <TextView
         android:id="@+id/text_favorite"
@@ -19,4 +164,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
