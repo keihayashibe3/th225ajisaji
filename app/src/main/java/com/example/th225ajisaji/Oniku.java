@@ -2,7 +2,9 @@ package com.example.th225ajisaji;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class Oniku extends AppCompatActivity {
 
@@ -11,4 +13,9 @@ public class Oniku extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_oniku);
     }
-}
+
+    public void onClickButaniku(View v) {
+        Intent intent = new Intent(this, Butaniku.class);
+
+        startActivity(intent);
+}}

@@ -6,258 +6,108 @@
     android:layout_height="match_parent"
     tools:context=".Oniku">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="20dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-66dp">
-
-        <ScrollView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <Button
-            android:id="@+id/return_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="onClickBack"
-            android:text="戻る" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/chijaorosu"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="20dp"
-                    app:srcCompat="@drawable/chinjaorosu" />
-
-                <TextView
-                    android:id="@+id/text_chijaorosu"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="20dp"
-                    android:text="チンジャオロース" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/porkcurry"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="20dp"
-                    app:srcCompat="@drawable/porkcurry" />
-
-                <TextView
-                    android:id="@+id/text_porkcurry"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="20dp"
-                    android:text="ポークカレー" />
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/rollcabbage"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:layout_weight="0.5"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="20dp"
-                    app:srcCompat="@drawable/rollcabbage" />
-
-                <TextView
-                    android:id="@+id/text_rollcabbage"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="20dp"
-                    android:text="ロールキャベツ" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/porksote"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:layout_weight="0.5"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="20dp"
-                    app:srcCompat="@drawable/porksote" />
-
-                <TextView
-                    android:id="@+id/text_porksote"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="20dp"
-                    android:text="ポークソテー" />
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/porkchoppu"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:layout_weight="0.5"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="20dp"
-                    app:srcCompat="@drawable/porkchappu" />
-
-                <TextView
-                    android:id="@+id/text_porkchoppu"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="20dp"
-                    android:text="ポークチョップ" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/staminadon"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:layout_weight="0.5"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="20dp"
-                    app:srcCompat="@drawable/staminadon" />
-
-                <TextView
-                    android:id="@+id/text_staminadon"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="20dp"
-                    android:text="スタミナ丼" />
-            </LinearLayout>
-
-        </LinearLayout>
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:orientation="vertical"
+            >
 
-            <LinearLayout
+
+            <TextView
+                android:id="@+id/text_serach"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:textAlignment="center"
+                android:textSize="0sp"
 
-                <ImageView
-                    android:id="@+id/subuta"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:layout_weight="0.5"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="20dp"
-                    app:srcCompat="@drawable/subuta" />
+                />
 
-                <TextView
-                    android:id="@+id/text_subuta"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="20dp"
-                    android:text="酢豚" />
-            </LinearLayout>
-
-            <LinearLayout
+            <TextView
+                android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:text="選択：お肉"
+                android:textSize="30sp"
+                android:lineSpacingExtra="15sp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                />
+            <TextView
+                android:id="@+id/text_Butaniku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 豚肉"
+                style="@style/Search_textStyle"
+                android:drawableLeft="@drawable/oniku"
+                android:onClick="onClickButaniku"
 
-                <ImageView
-                    android:id="@+id/syopgayaki"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:layout_weight="0.5"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="20dp"
-                    app:srcCompat="@drawable/syogayaki" />
+                />
 
-                <TextView
-                    android:id="@+id/text_syogayaki"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="20dp"
-                    android:text="生姜焼き" />
-            </LinearLayout>
+            <TextView
+                android:id="@+id/text_gyuuniku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 牛肉"
+                style="@style/Search_textStyle"
+                android:drawableLeft="@drawable/yasai"
+
+
+                />
+
+            <TextView
+                android:id="@+id/text_toriniku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 鶏肉"
+                style="@style/Search_textStyle"
+                android:drawableLeft="@drawable/gyokai"
+                />
+
+            <TextView
+                android:id="@+id/text_hikiniku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ひき肉"
+                style="@style/Search_textStyle"
+                android:drawableLeft="@drawable/gohan"
+                />
+
+            <TextView
+                android:id="@+id/text_kakouniku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 加工肉"
+                style="@style/Search_textStyle"
+                android:drawableLeft="@drawable/sarada"
+                />
+            <TextView
+                android:id="@+id/text_hituziniku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 羊肉"
+                style="@style/Search_textStyle"
+                android:drawableLeft="@drawable/okashi"
+                />
+
+            <TextView
+                android:id="@+id/text_sonota"
+                style="@style/Search_textStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/supu"
+                android:text=" その他のお肉　" />
+
+
+
 
         </LinearLayout>
-
-    </LinearLayout>
-
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
