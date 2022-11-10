@@ -15,6 +15,7 @@ import com.example.th225ajisaji.databinding.FlagmentSettingBinding;
 
 public class SettingFragment extends Fragment {
 
+
     private FlagmentSettingBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
