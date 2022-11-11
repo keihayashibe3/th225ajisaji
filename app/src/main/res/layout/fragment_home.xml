@@ -23,11 +23,11 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/border"
-                android:src="@drawable/ajisaji_logo"
-                />
+                android:scaleType="fitCenter"
+                android:src="@drawable/ajisajilogo2big" />
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -43,6 +43,8 @@
 
             </LinearLayout>
 
+
+            <!--旬-->
             <HorizontalScrollView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
@@ -101,8 +103,6 @@
                 </LinearLayout>
             </HorizontalScrollView>
 
-
-            <!--旬-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">

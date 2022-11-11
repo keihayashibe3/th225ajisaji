@@ -194,6 +194,36 @@ android:background="@drawable/border"
                 android:thumbTint="@color/orange500"/>
         </LinearLayout>
 
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textsentaku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="辛み"
+                android:background="@drawable/shape_rounded_corners"
+                android:padding="8px"
+                android:textStyle="bold"
+                />
+
+            <SeekBar
+                android:id="@+id/seeksentaku"
+                style="@style/Widget.AppCompat.SeekBar.Discrete"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:max="10"
+                android:progress="2"
+                android:progressTint="@color/orange500"
+                android:thumbTint="@color/orange500"/>
+        </LinearLayout>
+
+
         <Button
             android:id="@+id/buttonSetuzoku"
             android:layout_width="wrap_content"

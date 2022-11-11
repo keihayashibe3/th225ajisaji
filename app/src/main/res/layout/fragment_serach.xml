@@ -63,15 +63,6 @@
                 />
 
             <TextView
-                android:id="@+id/text_gyokai"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text=" 魚介"
-                style="@style/Search_textStyle"
-                android:drawableLeft="@drawable/gyokai"
-                />
-
-            <TextView
                 android:id="@+id/text_gohan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -81,6 +72,14 @@
                 />
 
             <TextView
+                android:id="@+id/text_gyokai"
+                style="@style/Search_textStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/gyokai"
+                android:text=" 魚介" />
+
+            <TextView
                 android:id="@+id/text_sarada"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -88,14 +87,14 @@
                 style="@style/Search_textStyle"
                 android:drawableLeft="@drawable/sarada"
                 />
+
             <TextView
                 android:id="@+id/text_okasi"
+                style="@style/Search_textStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" お菓子"
-                style="@style/Search_textStyle"
                 android:drawableLeft="@drawable/okashi"
-                />
+                android:text=" お菓子" />
 
             <TextView
                 android:id="@+id/text_supu"
