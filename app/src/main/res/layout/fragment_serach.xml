@@ -32,7 +32,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="カテゴリーから探す"
+                android:paddingLeft="20dp"
                 android:textSize="30sp"
+                android:textColor="@color/black"
                 android:lineSpacingExtra="15sp"
                 />
             <View
@@ -40,14 +42,17 @@
                 android:layout_height="1dp"
                 android:background="@color/black"
                 />
+
             <TextView
                 android:id="@+id/text_oniku"
+                style="@style/Search_textStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" お肉"
-                style="@style/Search_textStyle"
                 android:drawableLeft="@drawable/oniku"
                 android:onClick="onClickOniku"
+                android:paddingTop="10dp"
+                android:text="  お肉"
+
 
                 />
 
@@ -55,7 +60,7 @@
                 android:id="@+id/text_yasai"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" 野菜"
+                android:text="  野菜"
                 style="@style/Search_textStyle"
                 android:drawableLeft="@drawable/yasai"
                 android:onClick="onClickYasai"
@@ -66,7 +71,7 @@
                 android:id="@+id/text_gohan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" ご飯"
+                android:text="  ご飯"
                 style="@style/Search_textStyle"
                 android:drawableLeft="@drawable/gohan"
                 />
@@ -77,13 +82,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableLeft="@drawable/gyokai"
-                android:text=" 魚介" />
+                android:text="  魚介" />
 
             <TextView
                 android:id="@+id/text_sarada"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" サラダ"
+                android:text="  サラダ"
                 style="@style/Search_textStyle"
                 android:drawableLeft="@drawable/sarada"
                 />
@@ -94,7 +99,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableLeft="@drawable/okashi"
-                android:text=" お菓子" />
+                android:text="  お菓子" />
 
             <TextView
                 android:id="@+id/text_supu"
@@ -102,13 +107,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableLeft="@drawable/supu"
-                android:text=" スープ　" />
+                android:text="  スープ　" />
 
             <TextView
                 android:id="@+id/text_pan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" パン"
+                android:text="  パン"
                 style="@style/Search_textStyle"
                 android:drawableLeft="@drawable/pan"
                 />
@@ -117,9 +122,11 @@
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingTop="50dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="30dp"
                 android:text="アレルギーから探す"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="@color/black"/>
 
             <View
                 android:layout_width="match_parent"
@@ -129,27 +136,19 @@
 
             <TextView
                 android:id="@+id/text_tamago"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text=" 卵"
-                android:textSize="30sp"
                 style="@style/Search_textStyle"
-                android:drawableLeft="@drawable/tamago"
-                />
-
-            <TextView
-                android:id="@+id/text_komugiko"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" 小麦粉"    style="@style/Search_textStyle"
-                android:drawableLeft="@drawable/komugiko"
-                />
+
+                android:drawableLeft="@drawable/tamago"
+                android:paddingTop="10dp"
+                android:text="  卵" />
 
             <TextView
                 android:id="@+id/text_titi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" 乳"
+                android:text="  乳"
                 style="@style/Search_textStyle"
                 android:drawableLeft="@drawable/titi"
                 />
@@ -158,7 +157,7 @@
                 android:id="@+id/text_soba"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" そば"
+                android:text="  そば"
                 style="@style/Search_textStyle"
                 android:drawableLeft="@drawable/soba"
                 />
@@ -167,7 +166,7 @@
                 android:id="@+id/text_rakkasei"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" 落花生"
+                android:text="  落花生"
                 style="@style/Search_textStyle"
                 android:drawableLeft="@drawable/rakkasei"
                 />
@@ -185,7 +184,7 @@
                 android:id="@+id/text_amondo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" アーモンド"
+                android:text="  アーモンド"
                 style="@style/Search_textStyle"
                 android:drawableLeft="@drawable/amondo"
                 />
@@ -194,7 +193,7 @@
                 android:id="@+id/text_saba"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" さば"
+                android:text="  さば"
                 style="@style/Search_textStyle"
                 android:drawableLeft="@drawable/saba"
                 />

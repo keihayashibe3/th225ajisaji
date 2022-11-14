@@ -61,7 +61,9 @@
                         android:layout_margin="5dp"
                         android:drawableTop="@drawable/demigurasuhannbagu"
                         android:onClick="onClickYasai"
-                        android:text="ハンバーグ" />
+
+                        android:text="ハンバーグ"
+                        />
 
                     <Button
                         android:id="@+id/button_niku"
@@ -212,8 +214,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="スプーンコラム"
-                    android:paddingTop="20dp"/>
+                    android:paddingTop="20dp"
+                    android:text="スプーンコラム" />
 
             </LinearLayout>
 

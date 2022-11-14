@@ -34,6 +34,7 @@
                 android:text="選択：お肉"
                 android:textSize="30sp"
                 android:lineSpacingExtra="15sp"
+                android:textColor="@color/black"
                 />
             <View
                 android:layout_width="match_parent"
