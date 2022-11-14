@@ -59,9 +59,9 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
-                        android:drawableTop="@drawable/yasai_home"
+                        android:drawableTop="@drawable/demigurasuhannbagu"
                         android:onClick="onClickYasai"
-                        android:text="野菜" />
+                        android:text="ハンバーグ" />
 
                     <Button
                         android:id="@+id/button_niku"
@@ -69,9 +69,9 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
-                        android:drawableTop="@drawable/niku"
+                        android:drawableTop="@drawable/kare"
                         android:onClick="onClickOniku"
-                        android:text="肉" />
+                        android:text="カレー" />
 
                     <Button
                         android:id="@+id/button_men"
@@ -79,8 +79,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
-                        android:drawableTop="@drawable/yasai_home"
-                        android:text="麺" />
+                        android:drawableTop="@drawable/karaage"
+                        android:text="鶏の唐揚げ" />
 
                     <Button
                         android:id="@+id/button_hoka1"
@@ -88,8 +88,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
-                        android:drawableTop="@drawable/yasai_home"
-                        android:text="麺" />
+                        android:drawableTop="@drawable/nikujaga"
+                        android:text="肉じゃが" />
 
                     <Button
                         android:id="@+id/button_hoka2"
@@ -97,8 +97,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
-                        android:drawableTop="@drawable/yasai_home"
-                        android:text="麺" />
+                        android:drawableTop="@drawable/ebitiri"
+                        android:text="エビチリ" />
 
                 </LinearLayout>
             </HorizontalScrollView>
@@ -132,8 +132,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
-                        android:drawableTop="@drawable/yasai_home"
-                        android:text="野菜" />
+                        android:drawableTop="@drawable/buridaikon"
+                        android:text="ぶり大根" />
 
                     <Button
                         android:id="@+id/button_shun2"
@@ -141,8 +141,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
-                        android:drawableTop="@drawable/yasai_home"
-                        android:text="肉" />
+                        android:drawableTop="@drawable/guratan"
+                        android:text="グラタン" />
 
                     <Button
                         android:id="@+id/button_shun3"
@@ -150,8 +150,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
-                        android:drawableTop="@drawable/yasai_home"
-                        android:text="麺" />
+                        android:drawableTop="@drawable/kaki"
+                        android:text="牡蠣" />
 
                     <Button
                         android:id="@+id/button_shun4"
@@ -159,8 +159,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
-                        android:drawableTop="@drawable/yasai_home"
-                        android:text="麺" />
+                        android:drawableTop="@drawable/motsunabe"
+                        android:text="もつ鍋" />
 
                     <Button
                         android:id="@+id/button_shun5"
@@ -168,8 +168,35 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
-                        android:drawableTop="@drawable/yasai_home"
-                        android:text="麺" />
+                        android:drawableTop="@drawable/oden"
+                        android:text="おでん" />
+
+                    <Button
+                        android:id="@+id/button_shun6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:drawableTop="@drawable/rurukyabetsu"
+                        android:text="ロールキャベツ" />
+
+                    <Button
+                        android:id="@+id/button_shun7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:drawableTop="@drawable/sichu"
+                        android:text="シチュー" />
+
+                    <Button
+                        android:id="@+id/button_shun8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:drawableTop="@drawable/yakiimo"
+                        android:text="焼き芋" />
 
                 </LinearLayout>
             </HorizontalScrollView>
