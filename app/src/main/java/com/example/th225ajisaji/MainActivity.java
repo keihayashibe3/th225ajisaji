@@ -15,7 +15,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.example.th225ajisaji.databinding.ActivityMainBinding;
-import com.google.android.material.snackbar.Snackbar;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
         startActivity(intent);
     }
+
 }
 
 
