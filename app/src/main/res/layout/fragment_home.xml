@@ -62,8 +62,7 @@
                         android:drawableTop="@drawable/demigurasuhannbagu"
                         android:onClick="onClickYasai"
 
-                        android:text="ハンバーグ"
-                        />
+                        android:text="ハンバーグ" />
 
                     <Button
                         android:id="@+id/button_niku"

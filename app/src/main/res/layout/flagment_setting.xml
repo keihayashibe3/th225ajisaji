@@ -35,9 +35,9 @@
             android:id="@+id/imageView"
             android:layout_width="250dp"
             android:layout_height="250dp"
-            android:src="@drawable/chinjaorosu"
-android:background="@drawable/border"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+
+            android:src="@drawable/chinjaorosu" />
 
         <TextView
             android:id="@+id/textView2"
@@ -48,8 +48,8 @@ android:background="@drawable/border"
             android:layout_gravity="center_horizontal"
             android:textSize="24dp"
             android:background="#fafafa"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="25dp"/>
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -193,6 +193,27 @@ android:background="@drawable/border"
                 android:progressTint="@color/orange500"
                 android:thumbTint="@color/orange500"/>
         </LinearLayout>
+        <TextView
+            android:id="@+id/texryouri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+           android:layout_marginTop="20dp"
+            android:text="特定材料風味"
+            android:background="@drawable/shape_rounded_corners"
+            android:padding="8px"
+            android:textStyle="bold"
+            android:layout_margin="4dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:entries="@array/list" />
 
 
         <LinearLayout
@@ -200,16 +221,6 @@ android:background="@drawable/border"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal">
 
-            <TextView
-                android:id="@+id/textsentaku"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:text="辛み"
-                android:background="@drawable/shape_rounded_corners"
-                android:padding="8px"
-                android:textStyle="bold"
-                />
 
             <SeekBar
                 android:id="@+id/seeksentaku"
@@ -220,7 +231,7 @@ android:background="@drawable/border"
                 android:max="10"
                 android:progress="2"
                 android:progressTint="@color/orange500"
-                android:thumbTint="@color/orange500"/>
+                android:thumbTint="@color/orange500" />
         </LinearLayout>
 
 
@@ -229,11 +240,13 @@ android:background="@drawable/border"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="15dp"
 android:textSize="24dp"
             android:backgroundTint="#eecccc"
             android:fontFamily="sans-serif-black"
-            android:text="接続" />
+            android:text="接続"
+            android:onClick="setuzoku"
+            />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
