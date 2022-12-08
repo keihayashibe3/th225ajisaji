@@ -39,6 +39,11 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
     }
+    public void onClickEbi(View v) {
+        Intent intent = new Intent(this, yasai.class);
+
+        startActivity(intent);
+    }
 
     public void onClickOniku(View v) {
         Intent intent = new Intent(this,Oniku.class);
@@ -68,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
         startActivity(intent);
     }
+
 
 }
 

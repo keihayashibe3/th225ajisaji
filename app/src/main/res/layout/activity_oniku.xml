@@ -70,6 +70,7 @@
                 android:text=" 鶏肉"
                 style="@style/Search_textStyle"
                 android:drawableLeft="@drawable/gyokai"
+
                 />
 
             <TextView

@@ -175,9 +175,10 @@
                 android:id="@+id/text_ebi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" えび"
+                android:text="  えび"
                 style="@style/Search_textStyle"
                 android:drawableLeft="@drawable/ebi"
+                android:onClick="onClickEbi"
                 />
 
             <TextView
