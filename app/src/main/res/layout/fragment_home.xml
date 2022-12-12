@@ -44,7 +44,7 @@
             </LinearLayout>
 
 
-            <!--おすすめ-->
+            <!--旬-->
             <HorizontalScrollView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
@@ -61,7 +61,6 @@
                         android:layout_margin="5dp"
                         android:drawableTop="@drawable/demigurasuhannbagu"
                         android:onClick="onClickYasai"
-
                         android:text="ハンバーグ" />
 
                     <Button
@@ -104,8 +103,6 @@
                 </LinearLayout>
             </HorizontalScrollView>
 
-
-            <!--旬-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -120,6 +117,8 @@
 
             </LinearLayout>
 
+
+            <!--コラム-->
             <HorizontalScrollView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
@@ -204,8 +203,6 @@
                 </LinearLayout>
             </HorizontalScrollView>
 
-
-            <!--コラム-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -215,66 +212,31 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:paddingTop="20dp"
-                    android:text="スプーンコラム" />
+                    android:text="スプーンコラム"
+                    android:paddingTop="20dp"/>
 
             </LinearLayout>
 
-            <HorizontalScrollView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+
+
 
                     <Button
                         android:id="@+id/button_column1"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_margin="5dp"
-                        android:drawableTop="@drawable/yasai_home"
+                        android:drawableLeft="@drawable/yasai_home"
                         android:text="コラム1" />
 
                     <Button
                         android:id="@+id/button_column2"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_margin="5dp"
-                        android:drawableTop="@drawable/yasai_home"
+                        android:drawableLeft="@drawable/yasai_home"
                         android:text="コラム2" />
 
-                    <Button
-                        android:id="@+id/button_column3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_margin="5dp"
-                        android:drawableTop="@drawable/yasai_home"
-                        android:text="コラム3" />
 
-                    <Button
-                        android:id="@+id/button_column4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_margin="5dp"
-                        android:drawableTop="@drawable/yasai_home"
-                        android:text="コラム4" />
 
-                    <Button
-                        android:id="@+id/button_column5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_margin="5dp"
-                        android:drawableTop="@drawable/yasai_home"
-                        android:text="コラム5" />
-
-                </LinearLayout>
-            </HorizontalScrollView>
 
             <!--なんのいみがあるかは分からないけどスクロールビューの関係で下にテキストを用意しないと見切れる-->
             <TextView
