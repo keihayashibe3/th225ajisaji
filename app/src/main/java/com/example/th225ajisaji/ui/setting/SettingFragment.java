@@ -51,7 +51,7 @@ public class SettingFragment extends Fragment {
             public void onClick(View v) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
                 builder.setTitle("接続完了画面");
-                builder.setMessage("チンジャオロースの味をカスタマイズしました");
+                builder.setMessage("エビチャーハンの味をカスタマイズしました");
                 AlertDialog dialog = builder.create();
                 dialog.show();
 

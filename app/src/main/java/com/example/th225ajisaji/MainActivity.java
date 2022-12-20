@@ -4,6 +4,7 @@ package com.example.th225ajisaji;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 import com.example.th225ajisaji.ui.search.SearchFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
