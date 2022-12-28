@@ -69,7 +69,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:paddingLeft="20dp"
-                        android:paddingRight="20dp"
+
                         app:srcCompat="@drawable/ebicreampasta" />
 
                     <TextView
@@ -129,7 +129,6 @@
                         android:layout_marginTop="60dp"
                         android:layout_weight="0.5"
                         android:paddingLeft="20dp"
-                        android:paddingRight="20dp"
                         app:srcCompat="@drawable/ebityahan" />
 
                     <TextView
@@ -188,7 +187,6 @@
                         android:layout_marginTop="60dp"
                         android:layout_weight="0.5"
                         android:paddingLeft="20dp"
-                        android:paddingRight="20dp"
                         app:srcCompat="@drawable/ebimayo" />
 
                     <TextView
@@ -247,7 +245,6 @@
                         android:layout_marginTop="60dp"
                         android:layout_weight="0.5"
                         android:paddingLeft="20dp"
-                        android:paddingRight="20dp"
                         app:srcCompat="@drawable/namaharumaki" />
 
                     <TextView
