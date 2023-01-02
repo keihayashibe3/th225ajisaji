@@ -46,7 +46,9 @@
                         android:layout_gravity="center"
                         android:paddingLeft="20dp"
                         android:paddingRight="20dp"
-                        app:srcCompat="@drawable/ebichiri" />
+                        app:srcCompat="@drawable/ebichiri"
+
+                        />
 
                     <TextView
                         android:id="@+id/text_fav1"
@@ -70,7 +72,9 @@
                         android:layout_gravity="center"
                         android:paddingLeft="20dp"
 
-                        app:srcCompat="@drawable/ebicreampasta" />
+                        app:srcCompat="@drawable/ebicreampasta"
+
+                        />
 
                     <TextView
                         android:id="@+id/text_fav2"
@@ -129,7 +133,10 @@
                         android:layout_marginTop="60dp"
                         android:layout_weight="0.5"
                         android:paddingLeft="20dp"
-                        app:srcCompat="@drawable/ebityahan" />
+                        app:srcCompat="@drawable/ebityahan"
+                        android:onClick="onClickEbi2"
+
+                        />
 
                     <TextView
                         android:id="@+id/text_fav4"
